@@ -14,3 +14,17 @@ function getComputerChoice() {
         return 'Sorry, an error occured';
     }
 }
+
+function getPlayerChoice() {
+    let playerSelection = prompt('Scissors, Paper, or Rock?');
+    playerSelection = playerSelection.charAt(0).toUpperCase() + 
+                    playerSelection.slice(1).toLowerCase();
+
+    
+    return playerSelection;
+}
+
+
+function playRound(playerSelection, computerSelection) {
+
+}
