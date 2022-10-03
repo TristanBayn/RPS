@@ -98,6 +98,7 @@ function game() {
     }
 
     console.log(checkWin(playerScore, computerScore));
+    resetScores();
 
 
 }
